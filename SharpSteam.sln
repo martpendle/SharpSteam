@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSteam", "SharpSteam\SharpSteam.csproj", "{D0A686FB-B373-4FBC-A0DD-C3417276A816}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDFParser", "VDFParser\VDFParser\VDFParser.csproj", "{9543FB59-1EB6-4638-B24C-B12B9D4A15FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDFParserTests", "VDFParser\VDFParserTests\VDFParserTests.csproj", "{F080DE97-E69A-4D2F-B92A-794FE31A1733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSteamTests", "SharpSteamTests\SharpSteamTests.csproj", "{66B7522A-3F39-4DC2-9B5D-8FB17360010A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F080DE97-E69A-4D2F-B92A-794FE31A1733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B7522A-3F39-4DC2-9B5D-8FB17360010A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B7522A-3F39-4DC2-9B5D-8FB17360010A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B7522A-3F39-4DC2-9B5D-8FB17360010A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B7522A-3F39-4DC2-9B5D-8FB17360010A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CEB9964-3BF5-47BF-BC47-9C00420A30B5}
 	EndGlobalSection
 EndGlobal
